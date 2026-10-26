@@ -1,0 +1,125 @@
+standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        33
+  #input                   10
+  #output                  22
+  #inout                    1
+
+Gate Statistics
+#Basic gates            26781
+  #and                   8010
+  #nand                     0
+  #or                    6238
+  #nor                      0
+  #xor                    387
+  #xnor                     3
+  #buf                      0
+  #not                   1180
+  #bufif1                  33
+  #MX21                  3060
+  #FADD                     0
+  #DFF                   7870
+  #LATCH                    0
+#MACRO_ADD                538
+#MACRO_EQ                 254
+#MACRO_MULT                20
+#MACRO_MUX               3876
+#MACRO_OTHERS              18
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------+
+|Instance                        |Module                                            |gates  |seq    |macros |
++-----------------------------------------------------------------------------------------------------------+
+|top                             |top                                               |18911  |7870   |830    |
+|  U3                            |sdram                                             |107    |539    |8      |
+|    u2_ram                      |sdr_as_ram                                        |97     |525    |6      |
+|      u1_init_ref               |sdr_init_ref                                      |19     |81     |1      |
+|      u2_wrrd                   |sdr_wrrd                                          |78     |444    |5      |
+|    u_refresh_scheduler         |sdram_refresh_scheduler                           |4      |14     |2      |
+|  sd_card_bmp_m0                |sd_card_bmp                                       |13194  |3185   |212    |
+|    sd_card_top_m0              |sd_card_top                                       |451    |202    |16     |
+|      sd_card_cmd_m0            |sd_card_cmd                                       |311    |68     |11     |
+|      sd_card_sec_read_write_m0 |sd_card_sec_read_write                            |128    |90     |0      |
+|      spi_master_m0             |spi_master                                        |12     |44     |5      |
+|    u_adapter                   |sd_sector_adapter                                 |19     |67     |3      |
+|    u_key_auto                  |key_press_debounce                                |23     |22     |2      |
+|    u_key_mode                  |key_press_debounce                                |23     |22     |2      |
+|    u_key_next                  |key_press_debounce                                |27     |24     |2      |
+|    u_scanner                   |fat32_volume_scanner                              |6623   |1387   |68     |
+|    u_streamer                  |bmp_fat_reader                                    |5765   |1086   |97     |
+|      streamer                  |fat32_file_streamer                               |919    |220    |26     |
+|      stretch$scaler            |bmp_stream_stretch                                |3108   |304    |37     |
+|  seg_decoder_m0                |seg_decoder                                       |2      |0      |0      |
+|  seg_scan_m0                   |seg_scan                                          |24     |32     |4      |
+|  sys_pll_m0                    |sys_pll                                           |0      |0      |1      |
+|  u_audio_bridge                |media_hdmi_audio_bridge                           |1609   |695    |161    |
+|    u_pcm_gain                  |pcm_gain_scale                                    |6      |68     |28     |
+|    u_source_mux                |audio_source_mux                                  |280    |39     |19     |
+|    u_symbol_core               |hdmi_audio_symbol_core                            |1248   |510    |98     |
+|      u_acr_packetizer          |hdmi_audio_acr_packetizer                         |2      |16     |2      |
+|      u_audio_packetizer        |hdmi_audio_sample_packetizer                      |748    |246    |5      |
+|        u_body0_bch             |hdmi_bch8                                         |116    |0      |0      |
+|        u_body1_bch             |hdmi_bch8                                         |118    |0      |0      |
+|        u_body2_bch             |hdmi_bch8                                         |116    |0      |0      |
+|        u_body3_bch             |hdmi_bch8                                         |116    |0      |0      |
+|        u_header_bch            |hdmi_bch8                                         |1      |0      |0      |
+|      u_avi_packetizer          |hdmi_avi_infoframe_packetizer                     |0      |1      |0      |
+|      u_encoder0                |hdmi_tmds_channel_encoder                         |97     |14     |26     |
+|        u_terc4                 |hdmi_terc4_encoder                                |0      |0      |0      |
+|      u_encoder1                |hdmi_tmds_channel_encoder                         |73     |14     |25     |
+|        u_terc4                 |hdmi_terc4_encoder                                |0      |0      |0      |
+|      u_encoder2                |hdmi_tmds_channel_encoder                         |77     |14     |25     |
+|        u_terc4                 |hdmi_terc4_encoder                                |0      |0      |0      |
+|      u_info_packetizer         |hdmi_audio_infoframe_packetizer                   |0      |1      |0      |
+|      u_island_mapper           |hdmi_data_island_mapper                           |0      |0      |1      |
+|      u_island_scheduler        |hdmi_data_island_scheduler                        |209    |200    |7      |
+|      u_packet_scheduler        |hdmi_audio_packet_scheduler                       |36     |3      |4      |
+|    u_tone                      |pcm_media_tone                                    |18     |23     |7      |
+|    u_wav_elastic_fifo          |pcm_elastic_fifo                                  |27     |16     |6      |
+|  u_audio_reset                 |reset_sync                                        |0      |2      |0      |
+|  u_audio_waveform              |promax_audio_waveform                             |100    |65     |36     |
+|  u_brightness_contrast_adjust  |brightness_contrast_adjust                        |80     |348    |67     |
+|  u_control                     |media_player_control                              |123    |57     |15     |
+|  u_dynamic_text                |dynamic_text_overlay                              |241    |76     |43     |
+|    u_mode                      |playback_mode_overlay                             |24     |0      |5      |
+|    u_subtitle                  |emergency_subtitle_overlay                        |27     |17     |13     |
+|    u_timer                     |timestamp_osd                                     |190    |59     |25     |
+|  u_fade_transition             |video_fade_transition                             |59     |20     |5      |
+|  u_hdmi2phy_wrapper            |hdmi_phy_wrapper                                  |2      |52     |4      |
+|    u0_lane_lvds_8_1            |lane_lvds_10_1                                    |2      |18     |1      |
+|    u1_lane_lvds_8_1            |lane_lvds_10_1                                    |0      |12     |1      |
+|    u2_lane_lvds_8_1            |lane_lvds_10_1                                    |0      |12     |1      |
+|    u3_lane_lvds_8_1            |lane_lvds_10_1                                    |0      |10     |1      |
+|  u_loader                      |media_frame_loader                                |384    |495    |24     |
+|  u_mem_reset                   |reset_sync                                        |0      |2      |0      |
+|  u_osd_overlay                 |osd_overlay_24                                    |88     |22     |41     |
+|    u_osd                       |status_osd_overlay                                |88     |22     |41     |
+|  u_param_config_service        |param_config_service                              |6      |47     |0      |
+|  u_param_menu_controller       |param_menu_controller                             |140    |95     |22     |
+|  u_pixel_cdc                   |media_pixel_cdc                                   |86     |171    |13     |
+|    u_stream_fifo               |rfifo_32_32_512                                   |40     |96     |7      |
+|      ram_inst                  |ram_infer_rfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16     |36     |0      |
+|  u_reader                      |media_frame_reader                                |194    |547    |51     |
+|    u_command_prefetch          |fifo_prefetch_2                                   |16     |5      |6      |
+|    u_commands                  |rfifo_32_32_512                                   |44     |106    |7      |
+|      ram_inst                  |ram_infer_rfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |18     |40     |0      |
+|      wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |18     |40     |0      |
+|  u_sdcard_reset                |reset_sync                                        |0      |2      |0      |
+|  u_sdram_init_sync             |sync_2ff                                          |0      |2      |0      |
+|  u_thumbnail_layout            |thumbnail_layout                                  |199    |0      |19     |
+|  u_timing                      |color_bar                                         |12     |67     |13     |
+|  u_video_position              |hdmi_video_position                               |14     |11     |2      |
+|  u_video_reset                 |reset_sync                                        |0      |2      |0      |
+|  u_wav_player                  |wav_stream_player                                 |2089   |618    |64     |
+|    u_file                      |fat32_file_streamer                               |1665   |215    |23     |
+|    u_pcm_fifo                  |wfifo_32_32_512                                   |38     |94     |7      |
+|      ram_inst                  |ram_infer_wfifo_32_32_512                         |0      |0      |1      |
+|      rd_to_wr_cross_inst       |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|      wr_to_rd_cross_inst       |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16     |36     |0      |
+|  video_pll_m0                  |video_pll                                         |0      |0      |1      |
++-----------------------------------------------------------------------------------------------------------+

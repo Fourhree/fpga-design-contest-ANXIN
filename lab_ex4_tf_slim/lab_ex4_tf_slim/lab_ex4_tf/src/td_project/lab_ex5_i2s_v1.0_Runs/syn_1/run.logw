@@ -1,0 +1,102 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = F:/anlu TD6.2.1/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     lenovo
+   Run Date =   Sat Oct 24 13:14:49 2026
+
+   Run on =     LAPTOP-FFMIPFIU
+============================================================
+HDL-5370 WARNING: parameter 'S_IDLE' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(29)
+HDL-5370 WARNING: parameter 'S_WAIT' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(30)
+HDL-5370 WARNING: parameter 'S_INIT' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(31)
+HDL-5370 WARNING: parameter 'S_CMD_PRE' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(32)
+HDL-5370 WARNING: parameter 'S_CMD' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(33)
+HDL-5370 WARNING: parameter 'S_CMD_DATA' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(34)
+HDL-5370 WARNING: parameter 'S_READ_WAIT' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(35)
+HDL-5370 WARNING: parameter 'S_READ' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(36)
+HDL-5370 WARNING: parameter 'S_READ_ACK' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(37)
+HDL-5370 WARNING: parameter 'S_WRITE_TOKEN' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(38)
+HDL-5370 WARNING: parameter 'S_WRITE_DATA_0' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(39)
+HDL-5370 WARNING: parameter 'S_WRITE_DATA_1' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(40)
+HDL-5370 WARNING: parameter 'S_WRITE_CRC' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(41)
+HDL-5370 WARNING: parameter 'S_WRITE_SUC' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(42)
+HDL-5370 WARNING: parameter 'S_WRITE_BUSY' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(43)
+HDL-5370 WARNING: parameter 'S_WRITE_ACK' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(44)
+HDL-5370 WARNING: parameter 'S_ERR' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(45)
+HDL-5370 WARNING: parameter 'S_END' becomes localparam in 'sd_card_cmd' with formal parameter declaration list in ../../../user_source/hdl_source/SD/sd_card_cmd.v(46)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../../user_source/hdl_source/ip/afifo_16_32_256.v(231)
+HDL-5314 WARNING: net 'buffered_byte[7]' does not have a driver in ../../../user_source/hdl_source/SD/fat32_file_streamer.v(65)
+HDL-5317 WARNING: input port 'dib[63]' is not connected on this instance in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(231)
+HDL-5317 WARNING: input port 'dib[63]' is not connected on this instance in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(231)
+HDL-5314 WARNING: net 'font_rom' does not have a driver in ../../../user_source/hdl_source/dynamic_text_overlay.v(187)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(17)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[1]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[1]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0)
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[0]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[0]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_pixel_cdc/u_stream_fifo/ram_inst/ramread0_syn_4" in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(822) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_pixel_cdc/u_stream_fifo/ram_inst/ramread0_syn_4" in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(822) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_reader/u_commands/ram_inst/ramread0_syn_4" in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(822) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_reader/u_commands/ram_inst/ramread0_syn_4" in ../../../user_source/hdl_source/ip/afifo_32_16_256.v(822) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-6577 WARNING: The clock signal "U3/u2_ram/SDRAM_CLK" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-6562 WARNING: The init value of "sd_card_bmp_m0/u_streamer/streamer/ramread0_syn_4(../../../user_source/hdl_source/SD/fat32_file_streamer.v(74))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_pixel_cdc/u_stream_fifo/ram_inst/ramread0_syn_4(../../../user_source/hdl_source/ip/afifo_32_16_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_reader/ramread0_syn_4(../../../media_frame_reader.v(197))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_reader/ramread1_syn_4(../../../media_frame_reader.v(251))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_reader/u_commands/ram_inst/ramread0_syn_4(../../../user_source/hdl_source/ip/afifo_32_16_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "u_wav_player/u_pcm_fifo/ram_inst/ramread0_syn_4(../../../user_source/hdl_source/ip/afifo_16_32_256.v(822))" will be ignored since gate eram_init is set to off
+SYN-5011 WARNING: Undriven pin: model "top" / inst "sw3_sync1_reg" in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(217) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_param_menu_controller/key_sync_ff1_reg" in ../../../user_source/hdl_source/param_menu_controller.v(126) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[0]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[1]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[2]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[3]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[4]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[5]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[6]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[7]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[8]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[9]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[10]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[11]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[12]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[13]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[14]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[15]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[16]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[17]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[18]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[19]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[20]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[21]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[22]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[23]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[24]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[25]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[26]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[27]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[28]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[29]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[30]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "U3/u2_ram/u2_wrrd/Sdr_rd_dout_reg[31]" in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(0) / pin "clk"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
